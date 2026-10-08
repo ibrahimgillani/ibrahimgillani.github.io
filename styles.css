@@ -21,3 +21,10 @@
 /* Use the supplied mark consistently in the header and footer. */
 .brand-logo{display:block;flex:0 0 auto;width:42px;height:35px;object-fit:contain;padding:3px;background:#dfe8e2;border:1px solid rgba(147,223,194,.35);border-radius:7px;}
 .footer-inner .brand-logo{width:36px;height:30px;padding:2px;border-radius:6px;}
+/* Gentle signal pulses complement the existing slow orbit. */
+.node{animation:signal-pulse 4.8s ease-in-out infinite;}
+.node-a{animation-delay:-1.2s;}
+.node-b{animation-delay:-2.4s;}
+.node-c{animation-delay:-3.6s;}
+.node-d{animation-delay:-.4s;}
+@keyframes signal-pulse{0%,100%{opacity:.72;transform:scale(.88);box-shadow:0 0 9px #8ad9bd66;}50%{opacity:1;transform:scale(1.18);box-shadow:0 0 18px #8ad9bdcc;}}
