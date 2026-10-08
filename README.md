@@ -7,6 +7,7 @@ A responsive, accessible static portfolio for GitHub Pages. The site presents ha
 - `index.html` — page structure and portfolio content
 - `styles.css` — responsive layout, colors, and typography
 - `script.js` — mobile navigation and current copyright year
+- `logo.svg` — supplied logo used in the header and footer
 - `pgp-key.asc` — retained from the supplied archive; currently contains only a fingerprint, not an importable public key
 - `opengraph.jpg` — social sharing image
 
@@ -18,7 +19,7 @@ Open `index.html` in a browser, or serve this folder with any static web server.
 
 ## GitHub Pages
 
-Publish the repository root from the configured branch in **Settings → Pages**. Keep `index.html`, `styles.css`, `script.js`, `opengraph.jpg`, and `pgp-key.asc` together at the published root. GitHub Pages will serve the site without a framework build step.
+Publish the repository root from the configured branch in **Settings → Pages**. Keep `index.html`, `styles.css`, `script.js`, `logo.svg`, `opengraph.jpg`, and `pgp-key.asc` together at the published root. GitHub Pages will serve the site without a framework build step.
 
 ## Before publishing
 
