@@ -36,4 +36,8 @@
 .training-status{display:inline-flex;align-items:center;gap:6px;margin-top:2px;color:#9fcdb4;font:8px var(--mono);letter-spacing:.06em;text-transform:uppercase;}
 .training-status:before{content:"";width:5px;height:5px;border-radius:50%;background:#9fcdb4;}
 .ongoing-card{min-height:91px;}
+.recommended-card{padding:0;transition:border-color .18s,background .18s;}
+.recommended-card:hover{border-color:#557b69;background:linear-gradient(145deg,#20332e,#192724);}
+.recommended-card>a{display:flex;width:100%;height:100%;min-height:91px;flex-direction:column;align-items:flex-start;justify-content:center;gap:6px;padding:12px 13px;text-decoration:none;}
+.recommendation-status{color:#b4c9bc;}
 @media(max-width:400px){.training-grid{grid-template-columns:1fr;}.training-card,.ongoing-card{min-height:68px;}}
