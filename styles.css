@@ -62,3 +62,8 @@
   .signal-bottom>span:first-child{max-width:53%;line-height:1.4;}
   .signal-bottom .mono-label{font-size:7px;white-space:nowrap;}
 }
+@media(max-width:680px){
+  .visual-forensics{min-height:220px;}
+  .visual-forensics .evidence-board{top:46%;height:108px;width:min(220px,72%);}
+  .visual-forensics .evidence-caption{left:12px;right:12px;bottom:13px;text-align:center;letter-spacing:.06em;}
+}
