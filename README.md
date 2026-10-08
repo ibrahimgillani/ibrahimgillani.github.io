@@ -1,111 +1,30 @@
-Ibrahim Gillani — Cybersecurity Portfolio
+# Ibrahim Gillani — Cybersecurity Portfolio
 
-This repository hosts my personal cybersecurity portfolio website, built to document hands-on learning, practical projects, and proof of work rather than theory or buzzwords.
+A responsive, accessible static portfolio for GitHub Pages. The site presents hands-on defensive security work, clearly scoped support offerings, project case studies, tools, training, and contact options.
 
-The site is designed with a terminal-inspired interface to reflect a systems-first mindset and a focus on real operational skills.
+## Files
 
-🌐 Live site: https://ibrahimgillani.github.io
+- `index.html` — page structure and portfolio content
+- `styles.css` — responsive layout, colors, and typography
+- `script.js` — mobile navigation and current copyright year
+- `pgp-key.asc` — retained from the supplied archive; currently contains only a fingerprint, not an importable public key
+- `opengraph.jpg` — social sharing image
 
-Focus Areas
+The supplied PGP file is not linked from the site because it does not contain an importable public key. Replace it with a complete armored public key before offering encrypted contact.
 
-Linux administration and internals
+## Preview locally
 
-Networking fundamentals and traffic analysis
+Open `index.html` in a browser, or serve this folder with any static web server. No package installation or build step is required.
 
-Blue team and SOC concepts
+## GitHub Pages
 
-Detection thinking, logs, and triage
+Publish the repository root from the configured branch in **Settings → Pages**. Keep `index.html`, `styles.css`, `script.js`, `opengraph.jpg`, and `pgp-key.asc` together at the published root. GitHub Pages will serve the site without a framework build step.
 
-Practical labs and small security projects
+## Before publishing
 
-The emphasis is on how things work, what breaks, and how issues are identified and fixed.
+- Confirm that the training and study statuses are current.
+- Confirm that the contact email and LinkedIn URL are correct.
+- Replace `opengraph.jpg` if a new social preview is desired.
+- Add a complete armored PGP public key before offering encrypted contact.
 
-What This Site Contains
-Home
-
-A terminal-style introduction that clearly states identity, role, and technical focus.
-
-Projects
-
-Small, focused projects that demonstrate:
-
-the problem being solved
-
-tools and commands used
-
-mistakes encountered
-
-lessons learned
-
-Each project is intended to show thinking and execution, not just outcomes.
-
-Labs
-
-Repeatable labs covering Linux, networking, and blue team fundamentals.
-Labs are structured so they can be reproduced and understood step by step.
-
-Notes
-
-Concise technical notes explaining concepts in clear language, often tied to real commands or observations.
-
-Contact
-
-Direct contact information, including a PGP public key for secure communication.
-
-PGP Public Key
-
-For secure or encrypted communication, my PGP public key is available on the site.
-
-Key file: pgp-key.asc
-
-Use case: encrypted email and identity verification
-
-Technology & Hosting
-
-Built as a static site
-
-Developed using Replit
-
-Deployed on GitHub Pages
-
-No backend or tracking scripts
-
-No client-side analytics
-
-This keeps the site fast, transparent, and easy to audit.
-
-Design Philosophy
-
-Signal over aesthetics
-
-Proof of work over claims
-
-Clarity over complexity
-
-Terminal realism over marketing UI
-
-Everything on the site is intentional and minimal.
-
-Repository Structure
-index.html
-assets/
-opengraph.jpg
-pgp-key.asc
-
-
-Only production build files are included in this repository.
-
-Status
-
-This portfolio is actively maintained and will evolve as new projects, labs, and notes are completed.
-
-License
-
-Content is provided for viewing and reference.
-Projects and code snippets may be reused with attribution unless stated otherwise.
-
-
-
-review this README from a hiring-manager perspective
-
-Just tell me.
+Security testing is described as requiring explicit written authorization and an agreed scope. The listed projects are identified as lab work, not client engagements.
