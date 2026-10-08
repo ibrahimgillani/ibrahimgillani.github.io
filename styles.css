@@ -18,9 +18,6 @@
 .credential-org{color:#899a91;font-size:10px;text-align:right;}
 .credential-status{color:#acd3be;font:9px var(--mono);text-align:right;white-space:nowrap;}
 @media(max-width:680px){.about-side{padding:21px 18px;}.detail-intro,.capability-list,.lab-list,.credential-list{margin-left:24px;}.capability-list div{grid-template-columns:86px 1fr;gap:8px;}.credential-list li{gap:8px;}}
-/* Use the supplied mark consistently in the header and footer. */
-.brand-logo{display:block;flex:0 0 auto;width:42px;height:35px;object-fit:contain;padding:3px;background:#dfe8e2;border:1px solid rgba(147,223,194,.35);border-radius:7px;}
-.footer-inner .brand-logo{width:36px;height:30px;padding:2px;border-radius:6px;}
 /* Gentle signal pulses complement the existing slow orbit. */
 .node{animation:signal-pulse 4.8s ease-in-out infinite;}
 .node-a{animation-delay:-1.2s;}
@@ -41,3 +38,4 @@
 .pipeline-track i{height:1px;flex:1;min-width:8px;background:#79b89b88;}
 .pipeline-shield{position:absolute;left:50%;top:48%;display:grid;place-items:center;width:39px;height:39px;transform:translate(-50%,-50%);border:1px solid #8ed9b5;border-radius:50%;background:#17352e;color:#a4e4c3;font:14px var(--mono);box-shadow:0 0 28px #6dc89b44;}
 @media(max-width:680px){.pipeline-track{gap:5px;}.pipeline-track span{padding:7px 6px;font-size:7px;}.evidence-caption{left:20px;bottom:20px;}}
+.footer-inner .brand-mark{width:32px;height:32px;border-radius:7px;font-size:11px;}
