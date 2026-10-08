@@ -42,3 +42,23 @@
 /* Text-only wordmark: quiet, technical, and readable. */
 .brand{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.09em;text-transform:uppercase;color:#d5e0d8;}
 .footer-inner .brand{font-size:10px;letter-spacing:.08em;}
+/* Keep the hero signal panel balanced on narrow phones. */
+@media(max-width:400px){
+  .signal-card{min-height:286px;padding:16px 15px 14px;}
+  .signal-top{gap:6px;}
+  .signal-top .mono-label{font-size:7px;}
+  .signal-live{font-size:7px;}
+  .signal-graphic{inset:45px 0 60px;}
+  .orbit-one{width:88px;}
+  .orbit-two{width:132px;}
+  .orbit-three{width:176px;}
+  .signal-core{width:58px;height:58px;font-size:17px;}
+  .node-a{top:28%;left:38%;}
+  .node-b{right:25%;}
+  .node-c{bottom:20%;}
+  .node-d{top:35%;left:32%;}
+  .signal-caption{left:20px;right:20px;bottom:38px;font-size:9px;}
+  .signal-bottom{left:15px;right:15px;bottom:12px;gap:8px;font-size:8px;}
+  .signal-bottom>span:first-child{max-width:53%;line-height:1.4;}
+  .signal-bottom .mono-label{font-size:7px;white-space:nowrap;}
+}
