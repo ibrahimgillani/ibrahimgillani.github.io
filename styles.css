@@ -21,3 +21,19 @@
 /* Use the supplied mark consistently in the header and footer. */
 .brand-logo{display:block;flex:0 0 auto;width:42px;height:35px;object-fit:contain;padding:3px;background:#dfe8e2;border:1px solid rgba(147,223,194,.35);border-radius:7px;}
 .footer-inner .brand-logo{width:36px;height:30px;padding:2px;border-radius:6px;}
+/* Training section: present learning as a concise professional-development record. */
+.training-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;padding-bottom:16px;border-bottom:1px solid #30403b;}
+.training-kicker{display:block;margin-bottom:6px;color:#8fa398;font:9px var(--mono);letter-spacing:.13em;}
+.training-heading h3{margin:0;color:#eef2eb;font:600 21px/1.25 var(--display);letter-spacing:-.04em;}
+
+.training-groups{display:grid;gap:17px;padding-top:16px;}
+.training-group+.training-group{padding-top:15px;border-top:1px solid #2b3a36;}
+.training-group-title{margin:0 0 10px;color:#aab8af;font-size:11px;font-weight:600;letter-spacing:.01em;}
+.training-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;list-style:none;margin:0;padding:0;}
+.training-card{display:flex;min-height:77px;flex-direction:column;align-items:flex-start;justify-content:center;gap:6px;padding:12px 13px;border:1px solid #31413b;border-radius:4px;background:linear-gradient(145deg,#1a2a27,#172422);}
+.training-provider{color:#9aafa2;font:8px var(--mono);letter-spacing:.1em;}
+.training-name{color:#e6ede7;font:600 12px/1.45 var(--display);letter-spacing:-.015em;}
+.training-status{display:inline-flex;align-items:center;gap:6px;margin-top:2px;color:#9fcdb4;font:8px var(--mono);letter-spacing:.06em;text-transform:uppercase;}
+.training-status:before{content:"";width:5px;height:5px;border-radius:50%;background:#9fcdb4;}
+.ongoing-card{min-height:91px;}
+@media(max-width:400px){.training-grid{grid-template-columns:1fr;}.training-card,.ongoing-card{min-height:68px;}}
